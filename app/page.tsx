@@ -277,57 +277,6 @@ export default function Home() {
                 </svg>
               </a>
             </div>
-            <div className="foot__col">
-              <h4>Studio</h4>
-              <ul>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Engineering notes</a>
-                </li>
-                <li>
-                  <a href="#">Careers</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <div className="foot__col">
-              <h4>Practice</h4>
-              <ul>
-                <li>
-                  <a href="#services">Platforms</a>
-                </li>
-                <li>
-                  <a href="#services">AI workflows</a>
-                </li>
-                <li>
-                  <a href="#services">Cloud &amp; infra</a>
-                </li>
-                <li>
-                  <a href="#">Audits</a>
-                </li>
-              </ul>
-            </div>
-            <div className="foot__col">
-              <h4>Connect</h4>
-              <ul>
-                <li>
-                  <a href="#">LinkedIn</a>
-                </li>
-                <li>
-                  <a href="#">GitHub</a>
-                </li>
-                <li>
-                  <a href="#">X / Twitter</a>
-                </li>
-                <li>
-                  <a href="#">Read.cv</a>
-                </li>
-              </ul>
-            </div>
           </div>
           <div className="foot__bottom">
             <span>© 2026 SoulSync Labs Ltd.</span>
