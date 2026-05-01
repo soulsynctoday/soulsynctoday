@@ -121,20 +121,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="trust">
-          <span className="trust__label">Trusted by teams at</span>
-          <div className="trust__logos">
-            <span>Northwind</span>
-            <span>Lumeo</span>
-            <span>Halcyon Labs</span>
-            <span>Parallax</span>
-            <span>Fieldnote</span>
-          </div>
-          <div className="trust__metric">
-            <b>40+</b>
-            <small>Products shipped</small>
-          </div>
-        </div>
       </section>
 
       <section className="deck" id="services" data-screen-label="02 Services">

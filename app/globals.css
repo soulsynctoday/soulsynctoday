@@ -351,66 +351,6 @@ h1.headline .l2 em {
   border-color: rgba(255, 255, 255, 0.6);
 }
 
-/* ===== Trust strip ===== */
-.trust {
-  position: relative;
-  z-index: 4;
-  margin: 0 auto 28px;
-  width: min(1280px, calc(100% - 48px));
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  gap: 28px;
-  align-items: center;
-  color: rgba(255, 255, 255, 0.85);
-  border-top: 1px solid rgba(255, 255, 255, 0.18);
-  padding-top: 22px;
-}
-.trust__label {
-  font-family: var(--font-mono), monospace;
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.7);
-}
-.trust__logos {
-  display: flex;
-  gap: 36px;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: rgba(255, 255, 255, 0.85);
-  font-family: var(--font-barlow), sans-serif;
-  font-weight: 600;
-  font-size: 17px;
-  letter-spacing: -0.01em;
-}
-.trust__logos span {
-  opacity: 0.78;
-  transition: opacity 0.2s;
-}
-.trust__logos span:hover {
-  opacity: 1;
-}
-.trust__metric {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  color: #ffffff;
-}
-.trust__metric b {
-  font-family: var(--font-serif), serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 1;
-}
-.trust__metric small {
-  font-family: var(--font-mono), monospace;
-  font-size: 11px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.7);
-}
-
 /* corner ticks (mono details) */
 .corner {
   position: absolute;
@@ -849,10 +789,6 @@ h1.headline .l2 em {
   }
   .corner {
     display: none;
-  }
-  .trust {
-    grid-template-columns: 1fr;
-    text-align: center;
   }
   .deck__head {
     grid-template-columns: 1fr;
